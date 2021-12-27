@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82ED88E6-BE10-406F-92E6-EB0348817FD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SilentDevNull.SmplLogger", "src\SilentDevNull.SmplLogger\SilentDevNull.SmplLogger.csproj", "{B399EA71-364D-43CD-A684-297ACE024767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmplLoggerConsoleTest", "src\SmplLoggerConsoleTest\SmplLoggerConsoleTest.csproj", "{3C78C3E6-8D1F-4AFB-B1FB-85F937B28B42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B399EA71-364D-43CD-A684-297ACE024767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B399EA71-364D-43CD-A684-297ACE024767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B399EA71-364D-43CD-A684-297ACE024767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B399EA71-364D-43CD-A684-297ACE024767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C78C3E6-8D1F-4AFB-B1FB-85F937B28B42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C78C3E6-8D1F-4AFB-B1FB-85F937B28B42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C78C3E6-8D1F-4AFB-B1FB-85F937B28B42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C78C3E6-8D1F-4AFB-B1FB-85F937B28B42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B399EA71-364D-43CD-A684-297ACE024767} = {82ED88E6-BE10-406F-92E6-EB0348817FD3}
+		{3C78C3E6-8D1F-4AFB-B1FB-85F937B28B42} = {82ED88E6-BE10-406F-92E6-EB0348817FD3}
+	EndGlobalSection
+EndGlobal
