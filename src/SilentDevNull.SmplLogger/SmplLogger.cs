@@ -60,6 +60,5 @@ public class SmplLogger : ILogger
         Console.WriteLine(log);
         LogFileWriter logFileWriter = new LogFileWriter();
         logFileWriter.Log(log);
-        //logFileWriter.Log(logLevel,eventId,state,exception);
     }
 }
